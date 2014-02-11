@@ -1,0 +1,34 @@
+{
+  "name": "angular-bootstrap-switch",
+  "version": "0.8.0",
+  "description": "angular directive based on bootstrap-switch(https://github.com/nostalgiaz/bootstrap-switch)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fiftyk/angular-bootstrap-switch"
+  },
+  "keywords": [
+    "angular",
+    "directive",
+    "bootstrap",
+    "switch"
+  ],
+  "author": {
+    "name": "fiftyk",
+    "email": "LiuRtao@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fiftyk/angular-bootstrap-switch/issues"
+  },
+  "homepage": "https://github.com/fiftyk/angular-bootstrap-switch",
+  "devDependencies": {
+    "bower": "~1.2.8",
+    "grunt": "~0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-uglify": "~0.3.2"
+  }
+}

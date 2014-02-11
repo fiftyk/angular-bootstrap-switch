@@ -1,0 +1,31 @@
+{
+  "name": "angular-bootstrap-switch",
+  "version": "0.8.0",
+  "homepage": "https://github.com/fiftyk/angular-bootstrap-switch",
+  "authors": [
+    "fiftyk <LiuRtao@gmail.com>"
+  ],
+  "description": "angular directive based on bootstrap-switch(https://github.com/nostalgiaz/bootstrap-switch)",
+  "main": [
+    "build/js/bootstrap-switch.js",
+    "build/css/bootstrap3/bootstrap-switch.css"
+  ],
+  "dependencies": {
+    "bootstrap-switch": "~2.0.1",
+    "angular": "~1.1.12"
+  },
+  "keywords": [
+    "angular",
+    "directive",
+    "bootstrap",
+    "switch"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
