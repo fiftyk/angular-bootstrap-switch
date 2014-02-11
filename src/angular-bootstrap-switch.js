@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('fiftyk').directive('bootstrapSwitch', ['$parse', function($parse){
+angular.module('fiftyk', []).directive('bootstrapSwitch', ['$parse', function($parse){
   var linker = function($scope, el, attrs){
     var model = $parse(attrs.ngModel);
 
@@ -24,10 +24,10 @@ angular.module('fiftyk').directive('bootstrapSwitch', ['$parse', function($parse
     $scope.$on('$destroy', function () {
       el.bootstrapSwitch('destroy');
     });
-
-    return {
-      restrict: 'C',
-      link: linker
-    }
   };
+
+  return {
+    restrict: 'C',
+    link: linker
+  }
 }]);

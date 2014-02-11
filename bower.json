@@ -12,7 +12,7 @@
   ],
   "dependencies": {
     "bootstrap-switch": "~2.0.1",
-    "angular": "~1.1.12"
+    "angular": "~1.2.12"
   },
   "keywords": [
     "angular",
